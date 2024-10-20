@@ -1,0 +1,111 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0e8e6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Landing Page */
+.landing {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ffd1dc;
+    text-align: center;
+}
+
+.landing h1 {
+    font-size: 3em;
+    color: #b30047;
+}
+
+.landing p {
+    font-size: 1.5em;
+    margin: 20px 0;
+}
+
+.landing button {
+    padding: 10px 20px;
+    background-color: #ff4d88;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2em;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.landing button:hover {
+    background-color: #ff6688;
+}
+
+/* Hidden Content */
+.hidden-content {
+    display: none;
+    padding: 20px;
+}
+
+.photo-gallery {
+    text-align: center;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.gallery-item {
+    text-align: center;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.gallery-item p {
+    margin-top: 8px;
+    font-size: 1em;
+    color: #555;
+}
+
+/* Timeline of Memories */
+.timeline {
+    margin-top: 40px;
+}
+
+.timeline ul {
+    list-style-type: none;
+}
+
+.timeline li {
+    margin: 10px 0;
+    font-size: 1.2em;
+}
+
+.surprise-message {
+    text-align: center;
+    margin-top: 40px;
+}
+
+#heartBtn {
+    background: none;
+    border: none;
+    font-size: 3em;
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
+
+/* Animation */
+#heartBtn:hover {
+    transform: scale(1.2);
+    transition: 0.3s;
+}
